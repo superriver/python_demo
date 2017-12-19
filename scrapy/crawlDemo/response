@@ -1,0 +1,1119 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head>          
+         <link rel="canonical" href="http://blog.csdn.net/hjjdehao"/> 
+
+   
+
+  
+ <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848"> 
+       
+    <title>源代码的博客
+        - CSDN博客</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+
+    <meta name="keywords" content="" />
+
+   
+    <script src="http://static.blog.csdn.net/scripts/blog_static_head.min.js" type="text/javascript"></script>
+
+    
+        <!--new top-->
+       
+       
+        <!--new top-->
+    
+      <!-- ad begin -->
+         
+    <!-- ad end-->
+
+    <link rel="Stylesheet" type="text/css" href="http://static.blog.csdn.net/skin/skin-yellow/css/style.css?v=1.3" />
+
+    
+
+    <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="/hjjdehao/rss/list" />
+    <link rel="shortcut icon" href="http://c.csdnimg.cn/public/favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="http://static.blog.csdn.net/scripts/SyntaxHighlighter/styles/default.css" />
+ 
+
+
+
+    <link href="http://c.csdnimg.cn/blog/csdn_public_blog_detail.min.css" type="text/css" rel="stylesheet" />
+     
+     <style>
+         .gist_edit
+         {
+             display: none;
+         }
+     </style>
+
+  
+
+
+    <!-- 请置于所有广告位代码之前 --> 
+            <script src="http://dup.baidustatic.com/js/ds.js"></script>
+
+</head>
+
+
+<body>
+     
+         <div class="tracking-ad" data-view="true" data-mod="ad_popu_72"  data-mtp="62" data-order="40" data-con="ad_content_2072" >
+                     <script id="popuLayer_js_q" src="http://ads.csdn.net/js/popuLayer.js" defer="defer"  type="text/javascript"></script>
+                <div id="layerd" style="position: fixed;bottom:0px;right:0px;line-height:0px;z-index:1000">
+    	                <div class="J_close layer_close" style="display:;background-color:#efefef;padding:0px;color:#333;font:12px/24px Helvetica,Tahoma,Arial,sans-serif;text-align:right;">关闭</div>
+                    <!-- 广告占位容器 -->
+                    <div id="cpro_u3026784">
+                        <!-- 投放代码 -->
+                        <script src="http://dup.baidustatic.com/js/ds.js"></script>
+                                                    <script>
+                                                        (function () {
+                                                            var s = "_" + Math.random().toString(36).slice(2);
+                                                            document.write('<div id="' + s + '"></div>');
+                                                            (window.slotbydup = window.slotbydup || []).push({
+                                                                id: '4740870',
+                                                                container: s,
+                                                                size: '300,250',
+                                                                display: 'inlay-fix'
+                                                            });
+                                                        })();
+                            </script>
+
+                    </div></div>
+                <script>  document.getElementById("popuLayer_js_q").onload = function () { var styObjd = styObj = { width: "300px", "height": parseInt(250) + 28 }; window.CSDN.Layer.PopuLayer("#layerd", { storageName: "layerd", styleObj: styObjd, total: 50, expoire: 1000 * 60 }); }</script>
+     
+        </div>
+
+    <!-- 广告位开始 -->
+        
+    <!-- 广告位结束 -->
+
+    
+   
+      <!--new top-->
+    <script id="toolbar-tpl-scriptId" fixed="true" prod="blog" skin="black" src="http://c.csdnimg.cn/public/common/toolbar/js/html.js" type="text/javascript"></script>
+     <!--new top-->
+    <div id="container">
+        <div id="header">
+    <div class="header">
+        <div id="blog_title">
+            <h2>
+                <a href="http://blog.csdn.net/hjjdehao">源代码的博客</a></h2>
+            <h3>踏平坎坷，继续前进。</h3>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        
+     
+    </div>
+</div>
+<div id="navigator">
+    <div class="navigator_bg">
+    </div>
+    <div class="navigator">
+        <ul>           
+                <li id="btnContents"><a href="http://blog.csdn.net/hjjdehao?viewmode=contents"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_mulu'])">
+                    <img src="http://static.blog.csdn.net/images/ico_list.gif">目录视图</span></a></li>
+                <li id="btnView"><a href="http://blog.csdn.net/hjjdehao?viewmode=list"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_zhaiyao'])">
+                    <img src="http://static.blog.csdn.net/images/ico_summary.gif">摘要视图</span></a></li>
+                <li id="btnRss"><a href="http://blog.csdn.net/hjjdehao/rss/list"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_RSS'])">
+                    <img src="http://static.blog.csdn.net/images/ico_rss.gif">订阅</span></a></li>                   
+            
+
+            </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    var username = "hjjdehao";
+    var _blogger = username;
+    var blog_address = "http://blog.csdn.net/hjjdehao";
+    var static_host = "http://static.blog.csdn.net";
+    var currentUserName = "";  
+</script>
+
+        <div id="body">
+            <div id="main">
+                <div class="main">
+                        <div class="ad_class">
+<div class="notice tracking-ad" data-mod='popu_3' > 
+
+<a href="http://blog.csdn.net/turingbooks/article/details/78475571">
+<font color=red><strong>图灵赠书——程序员11月书单</strong></font></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp
+
+
+<a href="http://edu.csdn.net/topic/python2?utm_source=blog4">
+<font color=blue><strong>【思考】Python这么厉害的原因竟然是！</strong></font></a>
+&nbsp;&nbsp;&nbsp;&nbsp
+
+<a 
+href="http://blog.csdn.net/epubit17/article/details/78606519">
+<font color=blue><strong>感恩节赠书：《深度学习》等异步社区优秀图书和作译者评选启动！</strong></font></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp
+
+
+<a href="http://blog.csdn.net/broadview2006/article/details/78603363">
+<font color=red><strong>每周荐书：京东架构、Linux内核、Python全栈</strong></font></a>
+
+
+
+</div>                        </div>
+
+                        
+<div class="list_item_new">
+
+        <div id="article_toplist" class="list">
+
+        </div>
+
+    <div id="article_list" class="list">
+
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/74687945">
+        Java并发编程：闭锁CountDownLatch之一起回家            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+一、CountDownLatch的特性&#160;&#160;&#160;&#160;CountDownLatch也叫闭锁它是一个同步工具类，它的一个特性是：闭锁相当于一道门，所有线程都没到达之前，都是关闭状态的。直到所有的线程都完成各自的任务后，闭锁就会打开，并且一直处于打开状态。举个常见的例子来说，同学聚会，我们需要等到所有的人都到了，聚会才能开始。二、CountDownLatch实现原理&#160;&#160;&#160;&#160;&#160;&#160;CountDownLatch是通过...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-11-26 15:03</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/74687945" title="阅读次数">阅读</a>(9)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/74687945#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/77851774">
+        java 之线程的控制            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+一、join线程Thread提供了join方法，该方法在某个程序执行流中被调用时，调用其他线程的join方法的线程将会被阻塞。直到join方法的线程执行完为止。 static class JoinThread extends Thread{
+        public JoinThread(String name){
+            super(name);
+        }...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-09-12 15:12</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/77851774" title="阅读次数">阅读</a>(65)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/77851774#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/77746246">
+        Android小项目            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+使用了Rxjava开源库 
+Dragger 
+Butterknifer...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-08-31 14:37</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/77746246" title="阅读次数">阅读</a>(58)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/77746246#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/52980198">
+        设计模式——适配器模式            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+适配器模式将一个类的接口，转换成客户期望的另一接口。适配器让原本接口不兼容的类可以合作无间。
+适配器模式又分为对象适配器和类适配器。...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-08-29 23:24</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/52980198" title="阅读次数">阅读</a>(69)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/52980198#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/73322592">
+        Rxjava结合操作符—merge、 Join            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+1、merge
+
+Javadoc: merge(Iterable) 
+Javadoc: merge(Iterable,int) 
+Javadoc: merge(Observable[]) 
+Javadoc: merge(Observable,Observable) (接受二到九个Observable)
+
+
+
+    Observable odds=Observable.just(1,3,5,7);...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-08-23 15:00</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/73322592" title="阅读次数">阅读</a>(78)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/73322592#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/72877195">
+        kotlin学习笔记（二）            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+类和继承
+
+一、类的声明
+
+class Invoice {
+}
+
+二、构造函数 
+一个类可以有一个主构造器和一个或多个次构造器。主构造器是类头部的一部分, 位于类名称(以及可选的类型参数)之后。 
+1.主构造器
+
+class Person constructor(firstName: String) {
+}
+
+如果主构造器没有任何注解(annotation), 也没有任何可见度修饰符,constr...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-08-11 14:22</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/72877195" title="阅读次数">阅读</a>(61)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/72877195#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/73603324">
+        EventBus 3.0源码学习（二）            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+一、post和postSticky的区别
+
+
+
+    /** Posts the given event to the event bus. */
+    public void post(Object event) {
+        PostingThreadState postingState = currentPostingThreadState.get();
+        List...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-07-06 12:57</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/73603324" title="阅读次数">阅读</a>(116)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/73603324#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/72899574">
+        java线程的生命周期            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+启动线程的正确方法是调用Thread的start()，而不是直接调用run()，否则就变成单线程程序了。调用了线程的run方法之后，线程已经不在处于新建状态了，不要再次调用线程对象的start()方法了。只能对处于新建状态的线程调用start()，否则引发IllegalThreadStateException。...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-07-05 13:14</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/72899574" title="阅读次数">阅读</a>(86)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/72899574#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/69487500">
+        EventBus3.0源码学习（一）            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+一、注册源码解析
+
+二、事件分发解析
+
+三、取消注册解析...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-06-27 13:13</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/69487500" title="阅读次数">阅读</a>(171)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/69487500#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/72623975">
+        Kotlin基本语法（一）            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+一、程序运行入口 
+我们都知道java的程序运行入口是这样的
+
+public static void main(String[] args){}
+
+
+而kotlin跟java写法上还是有点区别的 
+对比一下就知道了
+
+func main(args:Array[] String){}
+
+
+二、定义包 
+在java上，我们都知道要定义相应的包名称。而kotlin则不需要匹配目录和包：源文件可以任意放在...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-06-23 10:56</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/72623975" title="阅读次数">阅读</a>(66)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/72623975#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/72910988">
+        Rxjava学习之结合操作符—zip            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+1、zip 
+    Observable ob1 = Observable.just(1,2,3);
+    Observable ob2 = Observable.just(10,20,30,40);
+    Observable.zip(ob1,ob2, (int1, int2) -&gt; int1+&quot;-&quot;+int2).subscribe(o -&gt; Log.v(&quot;TAG&quot;, &quot;zip:&quot;+o...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-06-13 10:50</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/72910988" title="阅读次数">阅读</a>(315)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/72910988#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/69942505">
+        Rxjava学习之过滤操作符—filter、elementAt            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+1、 filter(Func1)
+
+过滤操作符，只发射满足条件的数据。 
+
+
+
+
+ Observable.just(1, 2, 3, 4, 5, 6)
+           .filter(integer -&gt; integer &gt; 4)
+           .subscribe(
+                integer -&gt; Log.d(&quot;TAG&quot;, integer + &quot;&quot;));...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-06-08 10:01</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/69942505" title="阅读次数">阅读</a>(108)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/69942505#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/72843360">
+        java线程的创建和启动            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+一、继承Thread类
+
+
+
+public class MyThread extends Thread {
+  private static volatile double d=1;
+
+  @Override public void run() {
+    while (d10){
+      d++;
+    }
+  }
+
+  public static void main(String[] a...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-06-07 15:03</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/72843360" title="阅读次数">阅读</a>(85)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/72843360#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/52870745">
+        设计模式——Builder模式            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+一、概念 
+将一个复杂对象的构建过程和它的表示分离，使得相同的构建过程创建不同的表示。二、UML类图 
+UML类图如下图所示。 
+角色介绍： 
+Product产品类-产品的抽象类 
+Builder-抽象的Builder类，规范产品的组建，一般是由子类实现具体的组建过程； 
+ConcreteBuilder——具体的Bilder类； 
+Director——统一组装过程三、使用场景 
+    1、相同的方...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-05-24 10:08</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/52870745" title="阅读次数">阅读</a>(61)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/52870745#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/hjjdehao/article/details/69655988">
+        Python——re模块            
+        </a>
+        </span>
+         
+    </h1>
+</div>
+
+        <div class="article_description">
+re.match
+re.search
+re.sub
+re.split
+re.findall
+re.compile...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2017-05-24 10:03</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/hjjdehao/article/details/69655988" title="阅读次数">阅读</a>(107)</span>
+        <span class="link_comments" title="评论次数"><a href="/hjjdehao/article/details/69655988#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+        
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    </div>
+
+    <!--显示分页-->
+
+    <div id="papelist" class="pagelist">
+<span> 42条  共3页</span><strong>1</strong> <a href="/hjjdehao/article/list/2">2</a> <a href="/hjjdehao/article/list/3">3</a> <a href="/hjjdehao/article/list/2">下一页</a> <a href="/hjjdehao/article/list/3">尾页</a> 
+    </div>
+
+</div>
+<script  type="text/ecmascript">
+    $(function () {
+        setTimeout(function () {
+            $("a img[src='http://js.tongji.linezing.com/stats.gif']").parent().css({ "position": "absolute", "left": "50%" });
+        }, 300);
+    });    
+</script>
+ 
+
+                        <div class="clear">
+                        </div>
+                    </div>                   
+                
+            </div>
+                   
+           <div id="side">
+               
+    <div class="side">
+<div id="panel_Profile" class="panel">
+<ul class="panel_head"><span>个人资料</span></ul>
+<ul class="panel_body profile">
+<div id="blog_userface">
+    <a href="http://my.csdn.net/hjjdehao" target="_blank">
+    <img src="http://avatar.csdn.net/A/7/3/1_hjjdehao.jpg" title="访问我的空间" style="max-width:90%"/>
+    </a>
+    <br />
+    <span><a href="http://my.csdn.net/hjjdehao" class="user_name" target="_blank">hjjdehao</a></span>
+</div>
+<div class="interact">
+
+    <a href="javascript:void(0);" class="attent" id="span_add_follow" title="[加关注]"></a>
+
+ <a href="javascript:void(0);" class="letter"  title="[发私信]" onclick="window.open('http://msg.csdn.net/letters/model?receiver=hjjdehao','_blank','height=350,width=700');_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_sixin'])"></a>  
+</div>
+<div id="blog_medal">
+                <div id="bms_box">
+                                            <a  target="_blank">
+                                                    <img src="http://c.csdnimg.cn/jifen/images/xunzhang/xunzhang/chizhiyiheng.png" onmouseover="m_over_m(this,4)" onmouseout="m_out_m()" alt="1" >
+                                            </a>
+               </div>
+</div>
+<ul id="blog_rank">
+    <li>访问：<span>5935次</span></li>
+    <li>积分：<span>449</span> </li>    
+    <li >等级： <span style="position:relative;display:inline-block;z-index:1" >
+            <img src="http://c.csdnimg.cn/jifen/images/xunzhang/jianzhang/blog2.png" alt="" style="vertical-align: middle;" id="leveImg">
+            <div id="smallTittle" style=" position: absolute;  left: -24px;  top: 25px;  text-align: center;  width: 101px;  height: 32px;  background-color: #fff;  line-height: 32px;  border: 2px #DDDDDD solid;  box-shadow: 0px 2px 2px rgba (0,0,0,0.1);  display: none;   z-index: 999;">
+            <div style="left: 42%;  top: -8px;  position: absolute;  width: 0;  height: 0;  border-left: 10px solid transparent;  border-right: 10px solid transparent;  border-bottom: 8px solid #EAEAEA;"></div>
+            积分：449 </div>
+        </span>  </li>
+    <li>排名：<span>千里之外</span></li>
+</ul>
+<ul id="blog_statistics">
+    <li>原创：<span>39篇</span></li>
+    <li>转载：<span>3篇</span></li>
+    <li>译文：<span>0篇</span></li>
+    <li>评论：<span>1条</span></li>
+</ul>
+</ul>
+</div>
+
+
+<div class="panel" id="panel_Search">
+    <ul class="panel_head"><span>文章搜索</span></ul>
+    <ul class="panel_body" class="form_search">
+        <form id="frmSearch" action="http://so.csdn.net/search" class="form_search csdn-tracking-statistics" target="_blank"  data-mod="popu_306">
+        <span><input id="inputSearch" type="text" class="blogsearch" title="请输入关键字" /></span>
+        <input id="btnSubmit" type="button" value="搜索" title="search in blog" />
+        <input type="hidden" name="q" id="inputQ" />
+        <input type="hidden" name="t" value="blog" />
+        <a id="btnSearchBlog" target="_blank"></a>
+        </form>
+    </ul>
+</div>
+
+<script type="text/javascript">
+
+   
+    $(function () {
+        $("#btnSubmit").unbind("click");
+        $("#btnSubmit").click(function () {           
+            search();
+        });
+
+        $("#frmSearch").submit(function () {           
+            search();
+            return false;
+        });
+
+        function search()
+        {
+            if ($("#inputSearch").val() == "") {               
+                alert("请录入搜索关键词！");                         
+                return false;
+            }
+            //var url = "http://so.csdn.net/so/search/s.do?q=" + encodeURIComponent($("#inputSearch").val()) + "&u=" + username + "&t=blog";           
+            var url = "https://www.baidu.com/s?wd=" + encodeURIComponent($("#inputSearch").val()) + "%20site%3Ablog.csdn.net"
+            window.location.href = url;
+        }   
+    });
+</script><div id="panel_Category" class="panel">
+<ul class="panel_head"><span>文章分类</span></ul>
+<ul class="panel_body">    
+                 <li>
+                    <a href="/hjjdehao/article/category/6295270" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Android学习笔记</a><span>(3)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6785281" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Android 框架学习</a><span>(3)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6295272" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">设计模式</a><span>(7)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6332466" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Python学习笔记</a><span>(4)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6332467" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">C/C++</a><span>(1)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6332471" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">算法/数据结构</a><span>(2)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6332474" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">JavaScript</a><span>(0)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6332475" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Linux管理</a><span>(0)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6337099" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Java学习笔记</a><span>(8)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6505893" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">UML总结</a><span>(1)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6686176" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Rxjava的学习总结</a><span>(11)</span>
+                </li>
+                 <li>
+                    <a href="/hjjdehao/article/category/6987314" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Kotlin学习笔记</a><span>(2)</span>
+                </li>
+</ul>
+</div><div id="hotarticls" class="panel tracking-ad" data-mod="popu_340">
+<ul class="panel_head">
+    <span>       
+阅读排行    </span>
+</ul>
+
+<ul class="panel_body itemlist">
+<li>
+<a href="/hjjdehao/article/details/53079515" title="RxJava的学习之变换操作符—buffer">RxJava的学习之变换操作符—buffer</a><span>(410)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/72910988" title="Rxjava学习之结合操作符—zip">Rxjava学习之结合操作符—zip</a><span>(315)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52595984" title="设计模式——代理模式">设计模式——代理模式</a><span>(314)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/53063879" title="RxJava的学习之变换操作符—flatMap">RxJava的学习之变换操作符—flatMap</a><span>(310)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/60876669" title="EventBus3.0 在Android上的使用">EventBus3.0 在Android上的使用</a><span>(258)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52089280" title="Python实现类似switch的分支结构">Python实现类似switch的分支结构</a><span>(218)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52372979" title="设计模式——观察者模式">设计模式——观察者模式</a><span>(214)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52606815" title="Python文件操作-OS模块（参考）">Python文件操作-OS模块（参考）</a><span>(204)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52776727" title="Python文件操作-shutil 模块（参考）">Python文件操作-shutil 模块（参考）</a><span>(201)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/53019168" title="RxJava的学习之变换操作符—map">RxJava的学习之变换操作符—map</a><span>(183)</span>
+</li>
+</ul>
+</div>
+<div id="hotarticls2" class="panel tracking-ad" data-mod="popu_341">
+<ul class="panel_head"><span>评论排行</span></ul>
+<ul class="panel_body itemlist">
+<li>
+<a href="/hjjdehao/article/details/53079515" title="RxJava的学习之变换操作符—buffer">RxJava的学习之变换操作符—buffer</a><span>(1)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52776750" title="Java之StringBuffer、StringBuilder、String的区别">Java之StringBuffer、StringBuilder、String的区别</a><span>(0)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52776727" title="Python文件操作-shutil 模块（参考）">Python文件操作-shutil 模块（参考）</a><span>(0)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52606815" title="Python文件操作-OS模块（参考）">Python文件操作-OS模块（参考）</a><span>(0)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52595984" title="设计模式——代理模式">设计模式——代理模式</a><span>(0)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52372979" title="设计模式——观察者模式">设计模式——观察者模式</a><span>(0)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52201424" title="Java的反射机制">Java的反射机制</a><span>(0)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52089280" title="Python实现类似switch的分支结构">Python实现类似switch的分支结构</a><span>(0)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/52069431" title="Java线程同步的几种方式">Java线程同步的几种方式</a><span>(0)</span>
+</li>
+<li>
+<a href="/hjjdehao/article/details/77851774" title="java 之线程的控制">java 之线程的控制</a><span>(0)</span>
+</li>
+</ul>
+</div>
+<div id="homepageArticles" class="panel tracking-ad" data-mod="popu_4">
+<ul class="panel_head"><span>推荐文章</span></ul>
+<ul class="panel_body" id="ad_commend">
+<ul>
+<li>
+<a href="http://blog.csdn.net/csdnproduct/article/details/78647961"
+target="_blank">* 【2017年11月27日】CSDN博客更新周报</a></li>
+<br>
+<li>
+<a href="http://blog.csdn.net/blogdevteam/article/details/78287539" 
+target="_blank">* 【CSDN】邀请您来GitChat赚钱啦！</a></li>
+<br>
+<li>
+<a href="http://blog.csdn.net/blogdevteam/article/details/78625380"
+target="_blank">* 【GitChat】精选——JavaScript进阶指南</a></li>
+<br>
+
+<li>
+<a href="http://blog.csdn.net/gitchat/article/details/78546894"
+target="_blank">* 改做人工智能之前，90%的人都没能给自己定位</a></li>
+<br>
+<li>
+<a href="http://blog.csdn.net/gitchat/article/details/78546894"
+target="_blank">*  TensorFlow 人脸识别网络与对抗网络搭建</a></li>
+<br>
+<li>
+<a href="http://blog.csdn.net/gitchat/article/details/78557241"
+target="_blank">*  Vue 移动端项目生产环境优化</a></li>
+<br>
+<li>
+<a href="http://blog.csdn.net/gitchat/article/details/78546898"
+target="_blank">* 面试必考的计算机网络知识点梳理</a></li>
+
+</ul></ul>
+</div>
+
+
+<div id="newcomments" class="panel">
+<ul class="panel_head"><span>最新评论</span></ul>
+<ul class="panel_body itemlist">
+    <li>
+   
+         <a href="/hjjdehao/article/details/53079515#comments">RxJava的学习之变换操作符—buffer</a>
+    <p style="margin:0px;"><a href="/doc__wei" class="user_name">doc__wei</a>:
+buffer(Observable,Func1))  ---》怎么丢失数据了？？？
+    </p>
+    </li>
+</ul>
+</div>
+
+
+<div id="custom_column_42101268" class="panel">
+<ul class="panel_head"><span>友情链接</span></ul>
+<ul class="panel_body">
+
+<a href="http://www.jikedaohang.com/">程序员的网站</a>
+
+</ul>
+</div>    </div>
+    <div class="clear">
+    </div>
+
+                   <div class="tracking-ad" data-view="true" data-mod="ad_popu_189" data-mtp="63" data-order="40" data-con="ad_content_1259" style="width: 250px; height: 500px;">
+                        <div id="nav_show_top_stop" style="width: 250px;height: 500px;z-index:1000"><div id="cpro_u2734133">
+                             <!-- 投放代码 -->
+                             
+                            <!-- 请置于所有广告位代码之前 -->
+                            <script src="http://dup.baidustatic.com/js/ds.js"></script>
+
+                            <!-- 广告位：PC端-博客详情页-左侧button1-250*250 -->
+                                    <script>
+                                        (function () {
+                                            var s = "_" + Math.random().toString(36).slice(2);
+                                            document.write('<div id="' + s + '"></div>');
+                                            (window.slotbydup = window.slotbydup || []).push({
+                                                id: '4740887',
+                                                container: s,
+                                                size: '250,250',
+                                                display: 'inlay-fix'
+                                            });
+                                        })();
+                                    </script>
+
+                                                                                                    </div>
+                            <div id="cpro_u3031286">
+                                 <!-- 投放代码 -->
+                               
+                                <!-- 请置于所有广告位代码之前 -->
+                                <script src="http://dup.baidustatic.com/js/ds.js"></script>
+
+                                <!-- 广告位：PC端-博客详情页-左侧Button2-250*250 -->
+                                <script>
+                                    (function () {
+                                        var s = "_" + Math.random().toString(36).slice(2);
+                                        document.write('<div id="' + s + '"></div>');
+                                        (window.slotbydup = window.slotbydup || []).push({
+                                            id: '4740890',
+                                            container: s,
+                                            size: '250,250',
+                                            display: 'inlay-fix'
+                                        });
+                                    })();
+                                </script>
+
+
+
+                            </div></div>
+                   </div>
+                    <script>
+
+                        setTimeout(function () {
+                            var naviga_offsetTop = 0; function naviga_stay_top() {
+                                var scrollTop = jQuery(document).scrollTop();
+                                if (scrollTop > naviga_offsetTop) {
+                                    jQuery("#nav_show_top_stop").css({ "position": "fixed" });
+                                    jQuery("#nav_show_top_stop").css({ "top": "0px" });
+                                } else { jQuery("#nav_show_top_stop").css({ "position": "fixed" }); jQuery("#nav_show_top_stop").css({ "top": naviga_offsetTop - scrollTop + "px" }); }
+                            }
+                            function onload_function() {
+                                naviga_offsetTop = jQuery("#nav_show_top_stop").position().top;
+                                jQuery(window).bind("scroll", naviga_stay_top); jQuery(window).bind("mousewheel", naviga_stay_top);
+                                jQuery(document).bind("scroll", naviga_stay_top); jQuery(document).bind("mousewheel", naviga_stay_top);
+                            } jQuery(document).ready(onload_function);
+                        }, 200);
+
+                    </script>
+
+           </div>   
+            <div class="clear">
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="http://passport.csdn.net/content/loginbox/login.js"></script>
+<script type="text/javascript">
+    $(function () {
+        function __get_code_toolbar(snippet_id) {
+            return $("<span class='tracking-ad' data-mod='popu_167'><a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "' target='_blank' title='在CODE上查看代码片'  style='text-indent:0;'><img src='https://code.csdn.net/assets/CODE_ico.png' width=12 height=12 alt='在CODE上查看代码片' style='position:relative;top:1px;left:2px;'/></a></span>"
+                    + "<span class='tracking-ad' data-mod='popu_170'><a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "/fork' target='_blank' title='派生到我的代码片' style='text-indent:0;'><img src='https://code.csdn.net/assets/ico_fork.svg' width=12 height=12 alt='派生到我的代码片' style='position:relative;top:2px;left:2px;'/></a></span>");
+        }
+        
+        $("[code_snippet_id]").each(function () {
+            __s_id = $(this).attr("code_snippet_id");
+            if (__s_id != null && __s_id != "" && __s_id != 0 && parseInt(__s_id) > 70020) {
+                __code_tool = __get_code_toolbar(__s_id);
+                $(this).prev().find(".tools").append(__code_tool);
+            }
+        });
+
+        $(".bar").show();
+    });
+</script>
+
+
+
+
+
+    </div>
+     
+
+
+         <script>
+             var islock = 0;
+             var fileName = "";
+             var commentscount = 0;
+         </script>
+    
+    <script src="http://static.blog.csdn.net/scripts/csdn_blog_detail.min.js?v2017.041" type="text/javascript"></script>
+        
+    <script type="text/javascript" src="http://c.csdnimg.cn/blog/csdn_public_blog_detail.min.js?20170719001"></script>
+
+    <script type="text/javascript" src="http://medal.blog.csdn.net/showblogmedal.ashx?blogid=5675911"></script>
+
+
+  <div id="a52b5334d" style="width: 1px; height: 1px; display: none;">
+                    <script id="adJs52b5334"></script>
+                    <script>document.getElementById("adJs52b5334").src = "http://ads.csdn.net/js/opt/52b5334.js?t=" + Math.random();</script>
+   </div>
+          
+    <div class="pop_CA_cover"  style="display:none"></div>
+    <div class="pop pop_CA"  style="display:none">
+          <div class="CA_header">
+            收藏助手
+            <span class="cancel_icon"  id="fapancle"  onclick="$('.pop_CA').hide();$('.pop_CA_cover').hide();"></span>
+          </div>
+          <iframe src="" id="fa" frameborder="0" width="100%" height="360"  scrolling="no" ></iframe>
+    </div>
+
+
+
+</body>
+</html>   
